@@ -30,15 +30,15 @@ namespace Example7
             //論理型
             bool valueBool = true;
 
-            Console.WriteLine("sbyte :{0}", valueSByte);
-            Console.WriteLine("byte :{0}", valueByte);
-            Console.WriteLine("shot :{0}", valueShort);
-            Console.WriteLine("usshort :{0}", valueUSShort);
-            Console.WriteLine("int:{0}", valueInt);
-            Console.WriteLine("uint:{0}", valueUInt);
-            Console.WriteLine("Long:{0}", valueLong);
-            Console.WriteLine("yLong:{0}", valueULong);
-            Console.WriteLine("float:{0}", valueFloat);
+            Console.WriteLine("{1} :{0}", valueSByte,valueSByte.GetType().Name);
+            Console.WriteLine("{1} :{0}", valueByte, valueByte.GetType().Name);
+            Console.WriteLine("{1} :{0}", valueShort, valueShort.GetType().Name);
+            Console.WriteLine("{1} :{0}", valueUSShort, valueUSShort.GetType().Name);
+            Console.WriteLine("{1} :{0}", valueInt, valueInt.GetType().Name);
+            Console.WriteLine("{1} :{0}", valueUInt, valueUInt.GetType().Name);
+            Console.WriteLine("{1} :{0}", valueLong, valueLong.GetType().Name);
+            Console.WriteLine("{1} :{0}", valueULong, valueULong.GetType().Name);
+            Console.WriteLine("{1} :{0}", valueFloat, valueFloat.GetType().Name);
         }
     }
 }
